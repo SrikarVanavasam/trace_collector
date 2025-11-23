@@ -9,7 +9,7 @@ The setup consists of two machines connected to a single FPGA:
 1.  **Target Server (Host):** The machine running the workload. It connects to the FPGA via **CXL**.
 2.  **Collection Server (Receiver):** A separate machine dedicated to storing the trace data. It connects to the FPGA via a separate PCIe link.
 
-## 📂 Repository Structure
+## Repository Structure
 
 * **`rtl/`**: Hardware design files for the Intel Agilex 7 FPGA.
     * Can be dropped into the Intel Agilex 7 I-Series CXL Type 3 Design Example.
